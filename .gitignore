@@ -1,0 +1,54 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Ignore virtual environments
+env/
+venv/
+ENV/
+.venv/
+.env/
+
+# Ignore configuration files
+*.ini
+*.cfg
+*.toml
+
+# Ignore migrations if using Django or similar frameworks
+migrations/
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Ignore .env and other secrets
+.env
+*.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode and other editor settings
+.vscode/
+.idea/
