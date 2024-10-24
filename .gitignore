@@ -52,3 +52,9 @@ htmlcov/
 # VSCode and other editor settings
 .vscode/
 .idea/
+
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
